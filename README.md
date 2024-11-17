@@ -1,4 +1,22 @@
-# RomBuster
+
+usage: rombuster [-h] [-o OUTPUT] [-i INPUT] [-a ADDRESS] [--shodan SHODAN]
+                 [--zoomeye ZOOMEYE] [-p PAGES]
+
+RomBuster is a router exploitation tool that allows to disclosure network
+router admin password.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        Output result to file.
+  -i INPUT, --input INPUT
+                        Input file of addresses.
+  -a ADDRESS, --address ADDRESS
+                        Single address.
+  --shodan SHODAN       Shodan API key for exploiting devices over Internet.
+  --zoomeye ZOOMEYE     ZoomEye API key for exploiting devices over Internet.
+  -p PAGES, --pages PAGES
+                        Number of pages you want to get from ZoomEye.# RomBuster
 
 [![Developer](https://img.shields.io/badge/developer-EntySec-blue.svg)](https://entysec.com)
 [![Language](https://img.shields.io/badge/language-Python-blue.svg)](https://github.com/EntySec/RomBuster)
